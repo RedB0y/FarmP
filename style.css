@@ -1,0 +1,69 @@
+h2{
+	font-size: 2rem;
+}
+p{
+	font-size: 1rem;
+	justify-content: center;
+}
+
+.mainframe{
+	width: 100%;
+	height: 200vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 5fr 2fr 1fr 4fr 4fr 4fr; 
+	grid-template-areas:"logo logo"
+	"navbar navbar "
+	"animation animation"
+	"trendingpost trendingpost"
+	"post1 post2"
+	"post3 post4";
+}
+.logo{
+	grid-area:logo;
+	background-color:black;
+	color:white;
+	padding: 10px;
+	margin: 5px;}
+.navbar{
+	grid-area: navbar;
+	background-color:orange;
+	padding: 10px;
+	margin:5px;
+}
+.animation{
+	grid-area: animation;
+	background-color: tomato;
+	padding: 10px;
+	margin: 5px;
+}
+.trendingpost{
+	grid-area:trendingpost;
+	background-color: wheat;
+	padding: 10px;
+	margin: 5px;
+}
+.post1{
+	grid-area:post1;
+	background-color: peru;
+	padding: 10px;
+	margin: 5px;
+}
+.post2{
+	grid-area:post2;
+	background-color: peru;
+	padding: 10px;
+	margin: 5px;
+}
+.post3{
+	grid-area:post3;
+	background-color: peru;
+	padding: 10px;
+	margin: 5px;
+}
+.post4{
+	grid-area:post4;
+	background-color: peru;
+	padding: 10px;
+	margin: 5px;
+}
